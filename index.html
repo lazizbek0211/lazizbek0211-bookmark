@@ -1,14 +1,54 @@
 <!DOCTYPE html>
-<html lang="uz">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Template repo</title>
+    <title>Bookmark</title>
     <link rel="stylesheet" href="styles.css/normalize.css">
     <link rel="stylesheet" href="styles.css/styles.css">
 </head>
 <body>
-    
+    <!-- Header -->
+    <header class="site-header">
+        <div class="site-header__container container">
+            <a class="site-header__link" href="#"><img class="site-header__logo" src="img/logo.svg" alt=""></a>
+            <nav class="site-nav">
+                <ul class="site-nav__list">
+                    <li class="site-nav__item"><a class="site-nav__link" href="#">FEATURES</a></li>
+                    <li class="site-nav__item"><a class="site-nav__link" href="#">PRICING</a></li>
+                    <li class="site-nav__item"><a class="site-nav__link" href="#">CONTACT</a></li>
+                </ul>
+            </nav>
+            <a href="#" class="button button--red">LOGIN</a>
+        </div>
+    </header>
+    <!-- site-hero -->
+    <div class="site-hero">
+        <div class="site-hero__container container">
+            <div class="site-hero__content">
+                <h1 class="site-hero__theme">A Simple Bookmark<br> Manager</h1>
+                <p class="site-hero__text">A clean and simple interface to organize your favourite websites. Open a new browser tab and see your sites load instantly. Try it for free.</p>
+                <div class="button-wrapper">
+                    <a class="button button--violet" href="#">Get it on Chrome</a>
+                    <a class="button button--grey" href="#">Get it on Firefox</a>
+                </div>
+            </div>
+            <img class="hero-img" src="img/main-img.svg" alt="" width="578" height="385">
+        </div>
+    </div>
+    <!-- site-main -->
+    <main class="site-main">
+        <section class="features__container container">
+            <h2 class="features__theme">Features</h2>
+            <p class="features__text">Our aim is to make it quick and easy for you to access your favourite websites. Your bookmarks sync between your devices so you can access them on the go.</p>
+            <ul class="features__list">
+                <li class="features__item"><a class="features__link" href="">Simple Bookmarking</a></li>
+                <li class="features__item"><a class="features__link" href="">Speedy Searching</a></li>
+                <li class="features__item"><a class="features__link" href="">Easy Sharing</a></li>
+            </ul>
+        </section>
+    </main>
+    <script src="js/main.js"></script>
 </body>
 </html>

@@ -209,6 +209,7 @@ input::-ms-input-placeholder { /* IE Edge */
     display: flex;
 }
 .site-hero__container {
+    padding-bottom: 72px;
 }
 .site-hero__content {
     max-width: 540px;
@@ -288,7 +289,6 @@ input::-ms-input-placeholder { /* IE Edge */
     padding-top: 80px;
 }
 .features__container {
-    padding-bottom: 72px;
 }
 .features__theme {
     font-weight: 500;

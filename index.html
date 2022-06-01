@@ -39,14 +39,69 @@
     </div>
     <!-- site-main -->
     <main class="site-main">
-        <section class="features__container container">
-            <h2 class="features__theme">Features</h2>
-            <p class="features__text">Our aim is to make it quick and easy for you to access your favourite websites. Your bookmarks sync between your devices so you can access them on the go.</p>
-            <ul class="features__list">
-                <li class="features__item"><a class="features__link" href="">Simple Bookmarking</a></li>
-                <li class="features__item"><a class="features__link" href="">Speedy Searching</a></li>
-                <li class="features__item"><a class="features__link" href="">Easy Sharing</a></li>
-            </ul>
+        <div class="features">
+            <section class="features__container container">
+                <h2 class="features__theme">Features</h2>
+                <p class="features__text">Our aim is to make it quick and easy for you to access your favourite websites. Your bookmarks sync between your devices so you can access them on the go.</p>
+                <ul class="features__list">
+                    <li class="features__item active"><a class="features__link simple-link" href="#simple-bookmarking">Simple Bookmarking</a></li>
+                    <li class="features__item"><a class="features__link search-link" href="#intelegent-search">Speedy Searching</a></li>
+                    <li class="features__item"><a class="features__link share-link" href="#easy-sharing">Easy Sharing</a></li>
+                </ul>
+            </section>
+            <section class="block show simple" id="simple-bookmarking">
+                <div class="block__container container">
+                    <img class="block__img" src="img/bookmark-in-one-click.svg" alt="bookmark-in-one-click" width="536" height="346" >
+                    <div class="block__content">
+                        <h2 class="block__theme">Bookmark in one click 1</h2>
+                        <p class="block__text">Organize your bookmarks however you like. Our simple drag-and-drop interface gives you complete control over how you manage your favourite sites.</p>
+                        <a class="button button__violet" href="#">More Info</a>
+                    </div>
+                </div>
+            </section>
+            <section class="block search" id="intelegent-search">
+                <div class="block__container container">
+                    <img class="block__img" src="img/speedy-searching.svg" alt="bookmark-in-one-click" width="468" height="393" >
+                    <div class="block__content">
+                        <h2 class="block__theme">Intelligent search 2</h2>
+                        <p class="block__text">Our powerful search feature will help you find saved sites in no time at all. No need to trawl through all of <br>your bookmarks.</p>
+                        <a class="button button__violet" href="#">More Info</a>
+                    </div>
+                </div>
+            </section>
+            <section class="block share" id="easy-sharing">
+                <div class="block__container container">
+                    <img class="block__img" src="img/easy-sharing.svg" alt="easy-sharing" width="440" height="380" >
+                    <div class="block__content">
+                        <h2 class="block__theme">Share your bookmarks 3</h2>
+                        <p class="block__text">Easily share your bookmarks and collections with others. Create a shareable link that you can send at <br>the click of a button.</p>
+                        <a class="button button__violet" href="#">More Info</a>
+                    </div>
+                </div>
+            </section>
+        </div>
+
+        <section class="extension">
+            <div class="extension-wrapper container">
+                <h2 class="extension__theme">Download the extension</h2>
+                <p class="extension__text">We’ve got more browsers in the pipeline. Please do let us know if<br> you’ve got a favourite you’d like us to prioritize.</p>
+                <div class="card">
+                    <ul class="card__list">
+                        <li class="card__item">
+                            <img src="img/google.svg" alt="google-icon" class="icon" width="96" height="100">
+                        </li>
+                        <li class="card__item">
+                            <p class="card__text">Add to Chrome</p>
+                        </li>
+                        <li class="card__item">
+                            <p class="card__small">Minimum version 62</p>
+                        </li>
+                        <li class="card__item">
+                            <a class="button button__violet button__violet--big" href="#">Add & Install Extension</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
         </section>
     </main>
     <script src="js/main.js"></script>
